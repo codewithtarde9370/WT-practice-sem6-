@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+
+}
+.caveat-font {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+.jost{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.container{
+    padding: 15px;
+    background-color: white;
+    width: 500px;
+    margin-left: 35%;
+    border-radius: 10px;
+    border: 1px solid  rgb(5, 20, 49);
+box-shadow: 0 0 10px 2px  grey;
+
+    }
+
+
+input[type=text], input[type=password],input[type=email],input[type=date]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus,
+input[type=date]:focus,input[type=email]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+hr{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+
+}
+button{
+    background-color: rgb(5, 20, 49);
+    color: white;
+    padding: 16px 20px ;
+    margin: 8px 0;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    opacity: 0.9;
+
+}
+button:hover{
+    opacity:1;
+   background-color:#3a9bbb;
+
+       
+}
+
+a{
+    color: dodgerblue;
+
+}
+.sign-in{
+    background-color: #f1f1f1;
+    text-align: center;
+}
